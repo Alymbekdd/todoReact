@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1024px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Marmelad&family=Play:wght@400;700&family=Rubik+Mono+One&family=Supermercado+One&display=swap');
+@import './components/TodoHeader/TodoHeader.scss';
+@import './components/TodoMain/TodoMain.scss';
+@import './components/TodoFooter/TodoFooter.scss'
